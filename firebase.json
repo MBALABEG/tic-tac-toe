@@ -1,0 +1,9 @@
+{
+  "firebase": "melvinba",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

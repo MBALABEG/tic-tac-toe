@@ -1,0 +1,235 @@
+class Vertebrate
+  attr_accessor :name
+  def initialize(name)
+    @name = name
+  end
+end
+
+class Reptilia < Vertebrate
+  def cold_blooded
+    true
+  end
+end
+
+class Aves < Vertebrate
+  def can_fly?
+    true
+  end
+end
+
+class Reptilia
+  def initialize(data)
+    @name = data[:name]
+    @weight = data[:weight]
+    @scientific_name = data[:taxonomy][:genus] + " " + data[:taxonomy][:species]
+    @location = data[:location]
+  end
+end
+//nested hash
+
+data = {name: "snake",
+weight: "130LB",
+  taxonomy{genus: "boa",
+  spec: "constrictor"
+}
+
+}
+data[:name]
+
+data[:taxonomy][:spec]
+
+customer one orders many  customer has one address
+has many
+has one
+they have has one
+
+
+
+
+landlords can rent apts to ptential tenants
+users
+
+//put stuff into initialize function parrallel assignment
+def initialize(name, credit score, phone)
+  @name, @credit score, @phone = name, credit score, phone
+end
+attr_accessor: :name, :credit :score, :phone, apartments// read write access
+
+if name.class == string &&  credit_scrore.class == Fixnum
+
+else error invalid entries.
+
+end
+
+rob = Renter.new("Rob", )
+
+touch apartment.rob// file to contain class
+
+
+
+renters
+Properties
+  name string
+    contact info nested ahsh
+  Phone string
+  apt #   string
+  credit score  int
+  renters array
+apartments
+object
+
+methods
+
+landlords
+  name string
+  contact info nested ahsh
+  Phone string
+
+apartments
+
+set unit num once and read it.
+put in initialze function
+
+atr_accssor
+def initialze(apt-no, squarefootage, )
+  @apt_no = apt_no
+end
+
+
+  Number  string
+  occupid Boolean
+  rent int
+square footage int
+
+buildings
+number of units int
+apartments  array
+address string
+touch building.rb
+
+define relationships for our classes.
+
+
+DATABASES
+
+users table
+
+movies table
+primary key
+foreign key
+
+one to one
+one to many
+many to many
+
+
+employees
+DL information
+employee can have only one DL - one to one relationship can have one table
+
+bridge table  connect  make many to one to one relationshiop
+
+
+movie genre table
+movie id, genra id
+
+next project
+-----------------
+
+wedding vendors directory
+
+database design tools
+
+
+users/customers
+  sign in   (need to sign in to contact vendors at a deeper level?)
+  sign up
+
+salespeople
+  sign in
+  sign up
+
+
+vendors
+    sign in   (to see different options and rates and terms of adverizing at this site)
+    sign up
+
+category of vendors
+(florists, photographers)
+
+advertizing options and rates
+
+
+
+chatroomms
+comments
+threads
+define and connect relationships
+
+RAILS a ruby framework that emphasizes .....
+
+
+ROUTES
+convention over configuation
+action is a method inside the ocntroler   crud  create read update destroy
+open source framework  programmer happiness   forces the right way
+Model
+View
+Controller  delegate work to others a foreman a boss
+browser - user  get  request web server interceptin http requests  ROUTES  controller delegates to Model database and view css html
+Index   get request shows everything in database
+create
+shows   specific record from index
+destroy deletes
+update  put and patch request
+new   get form create posts
+edit
+
+index shows-read
+new create - create
+edit update - update
+destroy - delete
+seven actions
+
+rails commands
+rails new [app-name]
+rails new coffeeshop -T
+
+
+
+ticket buster
+
+get data first
+model association with our tables
+
+models
+
+Customer
+
+
+Ticket
+
+Event
+
+
+
+
+active record
+
+migrations
+
+rails console
+
+crud commands
+
+
+
+
+
+
+
+
+
+
+
+
